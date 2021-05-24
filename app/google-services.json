@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665478621645",
+    "project_id": "womenhelper-6818c",
+    "storage_bucket": "womenhelper-6818c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665478621645:android:a0af77df58f86bc0fbbc84",
+        "android_client_info": {
+          "package_name": "com.example.womenhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665478621645-2fuls778ouh65cml88islvrq76t4pltt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdlBgMvfoE6lt8TUKXCz1qOzab3rkQjKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665478621645-2fuls778ouh65cml88islvrq76t4pltt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
