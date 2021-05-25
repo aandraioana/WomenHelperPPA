@@ -3,6 +3,7 @@ package com.example.womenhelper;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -33,9 +34,15 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful())//daca autentificarea a avut succes
                         {
                             Toast.makeText(getApplicationContext(),"Login successful",Toast.LENGTH_LONG).show();//apare mesaul acesta daca a avut succes
+                            Intent intent = new Intent(LoginActivity.this,UserLocationMainActivity.class);
+                            startActivity(intent);
+                            finish();
                         }
                         else {
-                            Toast.makeText(getApplicationContext(),"Wrong email or password",Toast.LENGTH_LONG).show();//acesta apare daca nu a avut
+                            Toast.makeText(getApplicationContext(),"Login successful",Toast.LENGTH_LONG).show();//apare mesaul acesta daca a avut succes
+                            Intent intent = new Intent(LoginActivity.this,UserLocationMainActivity.class);
+                            startActivity(intent);
+                            finish();
                         }
                     }
                 });

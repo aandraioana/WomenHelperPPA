@@ -29,6 +29,7 @@ public class PasswordActivity extends AppCompatActivity {
             myIntent.putExtra("email",email); //daca parola e buna introducem emailul si parola inn "intent"
             myIntent.putExtra("password",e3_password.getText().toString());
             startActivity(myIntent);
+            finish();
         }
         else
         {

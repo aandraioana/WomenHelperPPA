@@ -56,6 +56,7 @@ public class NameActivity extends AppCompatActivity {
                 myIntent.putExtra("code",code);
                 myIntent.putExtra("imageUrl",resultUri);
                 startActivity(myIntent);
+                finish();
             }
             else {
                 Toast.makeText(getApplicationContext(), "Please choose a profile picture", Toast.LENGTH_SHORT).show();

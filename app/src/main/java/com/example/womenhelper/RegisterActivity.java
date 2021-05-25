@@ -42,6 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 //emailul nu a mai fost inregistrat
                                 Intent myIntent = new Intent(RegisterActivity.this,PasswordActivity.class);
                                 startActivity(myIntent);
+                                finish();
                             } else {
                                 //emailul a ami fost inregistrat
                                 dialog.dismiss();;
