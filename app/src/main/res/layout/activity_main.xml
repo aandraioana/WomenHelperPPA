@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#5F6145"
+    android:backgroundTint="#93DD96"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatButton
@@ -11,43 +13,30 @@
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="245dp"
         android:layout_height="57dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="510dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="249dp"
         android:allowUndo="false"
         android:background="#FF0000"
-        android:backgroundTint="#FF0000"
+        android:backgroundTint="#61B175"
         android:onClick="goToLogin"
         android:text="SIGN IN"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="245dp"
         android:layout_height="57dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="434dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="364dp"
         android:allowUndo="false"
-        android:background="#FF0000"
-        android:backgroundTint="#FF0000"
+        android:background="#61B175"
+        android:backgroundTint="#61B175"
         android:onClick="goToRegister"
         android:text="SIGN UP"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:strokeColor="#FF0000" />
+        app:strokeColor="#61B175" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

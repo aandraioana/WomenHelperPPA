@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#93DD96"
+    android:backgroundTint="#93DD96"
     tools:context=".NameActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
         android:layout_width="128dp"
         android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="141dp"
         android:onClick="selectImage"
-        android:layout_marginStart="140dp"
-        android:layout_marginBottom="440dp"
-        android:id="@+id/circleImageView"
         android:src="@drawable/profile"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="148dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="108dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginTop="313dp"
         android:ems="10"
         android:hint="Enter your username"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="252dp"
-        android:backgroundTint="#FF0000"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="401dp"
+        android:backgroundTint="#61B175"
         android:onClick="generateCode"
-        android:text="Next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="Next" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
